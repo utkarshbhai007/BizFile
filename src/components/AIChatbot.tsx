@@ -17,7 +17,7 @@ const AIChatbot = () => {
   const [isLoading, setIsLoading] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const apiKey = 'sk-0c1b2011bfd44e0a9442ac1d8b8e4573';
+  const apiKey = 'ur api key';
 
   useEffect(() => {
     if (isOpen && inputRef.current) {
